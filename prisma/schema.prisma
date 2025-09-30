@@ -1,0 +1,30 @@
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  directUrl         = env("DIRECT_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+//clerkid is user'sId
+//id is just to identify the product
+//know how these tables are interlinked
+
+
+
+model Job {
+  id        String      @id @default(uuid())
+  clerkId   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  position    String
+  company   String
+  location  String
+  status      String
+  mode     String
+}
+
+
+
