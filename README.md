@@ -43,6 +43,10 @@ Jobify is a robust, full-stack Next.js application for tracking your job search 
 
 ## Getting Started
 
+### Architecture
+<img width="8770" height="7177" alt="diagram (2)" src="https://github.com/user-attachments/assets/2806721c-9a37-4743-82c7-95a14f78ffcb" />
+
+
 ### 1. Create a Next.js Project
 
 ```sh
