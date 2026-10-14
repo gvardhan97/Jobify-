@@ -1,6 +1,6 @@
 # Jobify – Job Application Tracking System
 
-Jobify is a robust, full-stack Next.js application for tracking your job search and managing job applications. Built with Next.js 14, TypeScript, Prisma, Clerk authentication, Shadcn/UI, and Recharts, Jobify provides an interactive and secure dashboard to streamline the job application process.
+Jobify is a robust, full-stack Next.js application for tracking your job search and managing job applications. Built with Next.js 14, TypeScript, Prisma, Clerk authentication, Shadcn/UI, and Recharts, Jobify provides an interactive and secure dashboard to streamline the job applicaiton process.
 
 ---
 
